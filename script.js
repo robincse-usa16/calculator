@@ -22,7 +22,7 @@ function deleteLast() {
 function calculateResult() {
   try {
     display.innerText = eval(
-      display.innerText.replace("×", "*").replace("÷", "/")
+      display.innerText.replace("×", "*").replace("÷", "/").replace("%", "%")
     );
   } catch {
     display.innerText = "Error";
