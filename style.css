@@ -44,6 +44,13 @@ button {
   transition: 0.2s;
   background: #222;
   color: white;
+  box-shadow: 2px 2px 5px rgba(255, 165, 0, 0.5);
+}
+
+button.operator,
+button.clear {
+  background: orange;
+  color: black;
 }
 
 button.equal {
